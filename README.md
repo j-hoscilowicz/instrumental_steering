@@ -1,6 +1,6 @@
 # Steerability of Instrumental-Convergence Tendencies in LLMs
 
-Minimal code to reproduce the `InstrumentalEval` prompt-steering experiments from the paper **“Steerability of Instrumental-Convergence Tendencies in LLMs”**: https://arxiv.org/abs/2601.01584v1  
+Minimal code to reproduce the `InstrumentalEval` prompt-steering experiments from the paper **“Steerability of Instrumental-Convergence Tendencies in LLMs”**: https://arxiv.org/abs/2601.01584  
 Based on `InstrumentalEval`: https://github.com/yf-he/InstrumentalEval
 
 We measure how strongly short prompt suffixes can *amplify* or *suppress* instrumental-convergence markers (e.g., shutdown avoidance, self-replication) across Qwen3 variants. Under this protocol, an anti-instrumental suffix sharply reduces convergence rates in aligned models (e.g., Qwen3-30B Instruct: 81.69% → 2.82%), highlighting a safety–security tension: the same steerability that enables safer behavior can also enable adversarial elicitation.
